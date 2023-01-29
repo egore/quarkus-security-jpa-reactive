@@ -22,7 +22,7 @@ public class FormAuthJpaTestCase {
             "quarkus.datasource.db-kind=postgresql\n" +
             "quarkus.datasource.username=hibernate_orm_test\n" +
             "quarkus.datasource.password=hibernate_orm_test\n" +
-            "quarkus.datasource.reactive.url=${postgres.reactive.url}\n" +
+            "quarkus.datasource.reactive.url=vertx-reactive:postgresql://localhost:5432/hibernate_orm_test\n" +
             "quarkus.datasource.jdbc=false\n" +
             "quarkus.datasource.devservices.enabled=false\n" +
             "quarkus.hibernate-orm.sql-load-script=import.sql\n" +
