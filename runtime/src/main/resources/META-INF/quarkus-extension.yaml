@@ -6,6 +6,7 @@ metadata:
   - "security"
   - "jpa"
   - "orm"
+  - "reactive"
   - "panache"
   guide: "https://quarkus.io/guides/security-getting-started"
   categories:
@@ -13,4 +14,4 @@ metadata:
   status: "stable"
   config:
   - "quarkus.datasource."
-  - "quarkus.hibernate-orm."
+  - "quarkus.hibernate-reactive."
